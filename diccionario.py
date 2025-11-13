@@ -10,6 +10,7 @@
 # Son mutables (se pueden modificar), y muy útiles para representar objetos, registros, etc.
 # Ejemplo de uso de un diccionario:
 persona={
+    "id": 1,
     "nombre": "juan",
     "edad": 24,
     "profesion": "estudiante"
@@ -20,3 +21,9 @@ print("edad:", persona["edad"])
 print("profesion:", persona["profesion"])
 persona["edad"]=25
 print("edad actualizada:", persona["edad"])
+persona["ciudad"]="bogota"
+print("diccionario con nueva clave-valor:", persona)
+
+for clave, valor in persona.items():
+    print(f"{clave}: {valor}")
+    
