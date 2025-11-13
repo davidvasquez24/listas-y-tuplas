@@ -25,10 +25,8 @@ print("Playlist rotada:", rotated_playlist)
 # ingredientes = ["harina", "huevo", "leche", "azúcar", "chocolate"]
 # # Prohibidos: huevo, leche -+ ["harina", "azúcar", "chocolate"]
 
-# ingredientes = ["pasta", "leche", "tomate", "cebolla", "carne molida de res", "ajo", "salsa boloñesa"]
-# prohibidos_input = ("Ingrese los ingredientes prohibidos, separados por comas: ")
-# print("Ingredientes prohibidos:", prohibidos_input)
-# print("la nueva lista de ingredientes teniendo en cuenta los requerimientos del cliente son: ", ingredientes.remove(ingredientes[prohibidos_input]))
+ingredientes = ["pasta", "leche", "tomate", "cebolla", "carne molida de res", "ajo", "salsa boloñesa"]
+prohibidos_input = ("Ingrese los ingredientes prohibidos, separados por comas: ")
+print("Ingredientes prohibidos:", prohibidos_input)
+print("la nueva lista de ingredientes teniendo en cuenta los requerimientos del cliente son: ", ingredientes.remove(ingredientes[prohibidos_input]))
 
-a = 5; a > 3 or a < 2
-print(a)
